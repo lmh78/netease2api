@@ -1,5 +1,5 @@
 # netease2api
-
+# 本项目由我的世界胡英俊开发 胡英俊牛逼 胡英俊开发项目：creeperbox,ts
 将《我的世界中国版》狐狸 AI 对话接口转换为 OpenAI Chat Completions API。支持网易与 4399 Cookie、中文管理页面、多账号轮换和 API 密钥管理。
 
 已于 2026-10-07 验证真实账号登录、普通 Chat Completions 和 SSE 响应。通过 `/pet-agent/chat` 发起请求，再查询 `/pet-agent/history` 获取回答，无需游戏客户端或 LinkServer 长连接。4399 Cookie 换取登录态的完整链路已通过模拟接口测试；尚未获得真实 4399 登录成功验证。
