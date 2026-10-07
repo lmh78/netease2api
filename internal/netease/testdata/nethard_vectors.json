@@ -1,0 +1,40 @@
+{
+  "source": "user-provided nethard-core-main.zip original TypeScript",
+  "http": {
+    "plain": "{\"ok\":true}",
+    "iv_hex": "30313233343536373839616263646566",
+    "key_index": 5,
+    "suffix": "aaaaaaaaaaaaaaaa",
+    "expected": "303132333435363738396162636465662fe4f94be8e4ba4f906a8d10d617bff567591c09f94f4492e8a7512e949afc2454"
+  },
+  "tokens": [
+    {
+      "path": "/pet-agent/chat",
+      "body": "{\"content\":\"hello\"}",
+      "token": "fixture-token",
+      "expected": "abqmvilp77orNnWm1"
+    },
+    {
+      "path": "/pet-agent/history",
+      "body": "{\"page_size\":20,\"record_id_cursor\":\"\"}",
+      "token": "fixture-token",
+      "expected": "If8rdDlsPOs4vm581"
+    },
+    {
+      "path": "/a/b/c?",
+      "body": "BODY",
+      "token": "TOKEN",
+      "expected": "7645mm2umTQpaTgo1"
+    }
+  ],
+  "signatures": [
+    {
+      "message": "3.9.5.29710318673c83b014387de63b3167bb5fe29c3.9.9.2973351e84106f5336cfdb633e97f81371c2052b3e7ca013bb30a74d822579860c042b00000000-0000-5000-8000-000000000000",
+      "expected": "QcPmhIkM0EGJvMtbKaqdKw=="
+    },
+    {
+      "message": "long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-long-fixture-",
+      "expected": "QbeiZ4kgC26J0EZ5KT7fUA=="
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+services:
+  netease2api:
+    build: .
+    ports:
+      - "127.0.0.1:18080:18080"
+    volumes:
+      - netease2api-data:/data
+    restart: unless-stopped
+volumes:
+  netease2api-data:

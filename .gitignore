@@ -1,0 +1,16 @@
+/data/
+*.exe
+*.local.json
+*.log
+/dist/
+*.zip
+!internal/gateway/web/source.zip
+/release/
+__pycache__/
+.env
+.env.*
+*.key
+*.enc
+*.pem
+*.sqlite*
+*.db
